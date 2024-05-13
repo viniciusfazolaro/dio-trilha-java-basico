@@ -2,26 +2,26 @@ package user;
 
 import iphone.IPhone;
 
-public class User extends IPhone{
+public class User{
     
     public static void main(String[] args) {
         
-        User u = new User();
+        IPhone i = new IPhone();
 
-        u.call();
+        i.call();
 
-        u.answer();
+        i.answer();
 
-        u.startVoicemail();
+        i.startVoicemail();
 
-        u.addNewTab();
+        i.addNewTab();
 
-        u.reloadPage();
+        i.reloadPage();
 
-        u.play();
+        i.play();
 
-        u.pause();
+        i.pause();
 
-        u.selectMusic();
+        i.selectMusic();
     }
 }
